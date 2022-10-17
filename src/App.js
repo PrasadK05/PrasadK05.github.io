@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Intro from './Components/Intro';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Greetings</h1>
-       <h1>Hii I Am Prasad Karde</h1>
-       <h3>Full Stack Web Developer</h3>       
-      </header>
+     <Navbar/>
+     <Intro/>
     </div>
   );
 }

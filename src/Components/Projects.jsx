@@ -17,7 +17,7 @@ export default function Projects() {
       id="projects"
       width={{ base: "100%", sm: "100%", md: "90%", lg: "70%" }}
       margin="auto"
-      mt={{ base: "10px", sm: "20px", md: "30px", lg: "100px" }}
+      mt={{ base: "20px", sm: "20px", md: "30px", lg: "100px" }}
       // border={"1px solid red"}
       textAlign="center"
     >

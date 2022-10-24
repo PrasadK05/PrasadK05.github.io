@@ -17,6 +17,8 @@ import {
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { Link } from "react-scroll";
 
+
+
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();

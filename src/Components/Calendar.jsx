@@ -6,10 +6,11 @@ import { Box, Text } from "@chakra-ui/react";
 export default function Calendar() {
   return (
     <Box
+    id="calendar"
       width={{ base: "100%", sm: "100%", md: "90%", lg: "70%" }}
       margin="auto"
       mt={{ base: "10px", sm: "20px", md: "30px", lg: "100px" }}
-      border={"1px solid red"}
+      // border={"1px solid red"}
     >
         <Box mb={{ base: "15px", sm: "20px", md: "20x", lg: "25px" }} textAlign="center">
             <Text

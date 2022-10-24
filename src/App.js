@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Intro from './Components/Intro';
 import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
+import Calendar from './Components/Calendar';
+import Stats from './Components/Stats';
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
      <Navbar/>
      <Intro/>
      <AboutMe/>
-     <Projects/>
+     <Projects/> 
+     <Calendar/>
+     <Stats/>
     </div>
   );
 }

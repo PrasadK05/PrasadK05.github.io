@@ -42,7 +42,7 @@ export default function Intro() {
               Full Stack Web Developer
             </Text>
           </Text>
-          <a href="Prasad-Karde-Resume.pdf" download> <Button
+          <a href="Prasad_Karde_Resume.pdf" download> <Button
             mt={"20px"}
             mb={"20px"}
             flex={1}

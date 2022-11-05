@@ -4,10 +4,7 @@ import {
   Link,
   SimpleGrid,
   Stack,
-  Text,
-  Flex,
-  Tag,
-  ListHeader,
+  Text,  
   Image,
   useColorModeValue,
 } from "@chakra-ui/react";

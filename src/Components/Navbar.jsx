@@ -78,7 +78,7 @@ export default function Navbar() {
                   Contact
                 </Button>
               </Link>
-              <a href="Prasad_Karde_Resume.pdf" download>
+              <a href="https://drive.google.com/file/d/1fj4aTBunY4c8LKKoP95D6AwMRvsPtORu/view?usp=sharing" target={"_blank"}>
                 <Button
                   // bg="transparent"
                   flex={1}
@@ -202,7 +202,7 @@ export default function Navbar() {
                 </Button>
               </Link>
               {/* <Link> */}
-              <a href="Prasad_Karde_Resume.pdf" download>
+              <a href="https://drive.google.com/file/d/1fj4aTBunY4c8LKKoP95D6AwMRvsPtORu/view?usp=sharing" target={"_blank"}>
                 <Button
                   // flex={1}
                   fontSize={"sm"}

@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <Box
       id="skills"
-      width={{ base: "100%", sm: "100%", md: "90%", lg: "70%" }}
+      width={{ base: "95%", sm: "95%", md: "90%", lg: "70%" }}
       margin="auto"
       mt={{ base: "20px", sm: "20px", md: "30px", lg: "100px" }}
     //   border={"1px solid red"}
@@ -140,6 +140,36 @@ export default function Skills() {
         >
           <Image src="https://img.icons8.com/color/2x/chakra-ui.png" w="100%" />
           <Text as={"b"}>Chakra UI</Text>
+        </Box>
+
+        <Box
+          textAlign={"center"}
+          p={"5px"}
+          boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+          borderRadius={"15px"}
+        >
+          <Image src="https://img.icons8.com/fluency/2x/typescript.png" w="100%" />
+          <Text as={"b"}>TypeScript</Text>
+        </Box>
+
+        <Box
+          textAlign={"center"}
+          p={"5px"}
+          boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+          borderRadius={"15px"}
+        >
+          <Image src="https://img.icons8.com/color/2x/java-web-token.png" w="100%" />
+          <Text as={"b"}>JSON Web Token</Text>
+        </Box>
+
+        <Box
+          textAlign={"center"}
+          p={"5px"}
+          boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+          borderRadius={"15px"}
+        >
+          <Image src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" w="100%" />
+          <Text as={"b"}>NEXT.js</Text>
         </Box>
 
         <Box

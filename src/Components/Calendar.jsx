@@ -7,7 +7,7 @@ export default function Calendar() {
   return (
     <Box
     id="calendar"
-      width={{ base: "100%", sm: "100%", md: "90%", lg: "70%" }}
+      width={{ base: "95%", sm: "95%", md: "90%", lg: "70%" }}
       margin="auto"
       mt={{ base: "20px", sm: "20px", md: "30px", lg: "100px" }}
       // border={"1px solid red"}

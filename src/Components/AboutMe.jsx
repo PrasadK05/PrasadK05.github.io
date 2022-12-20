@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <Box
       id="aboutme"
-      width={{ base: "100%", sm: "100%", md: "90%", lg: "70%" }}
+      width={{ base: "95%", sm: "95%", md: "90%", lg: "70%" }}
       margin="auto"
       mt={{ base: "30px", sm: "30px", md: "40px", lg: "100px" }}
       textAlign="center"

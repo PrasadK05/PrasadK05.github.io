@@ -1,4 +1,4 @@
-import { Box, Image, Link, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
 
 export default function Stats() {
@@ -33,7 +33,7 @@ export default function Stats() {
       <Box w="100%" mb={{ base: "15px", sm: "20px", md: "20x", lg: "25px" }}>
         <Link href="https://github.com/PrasadK05">
           <Image
-            src="https://github-readme-stats.vercel.app/api?username=PrasadK05&show_icons=true"
+            src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=PrasadK05&hide_border=true&theme=react&hide_border=true&bg_color=white&text_color=black&show_icons=true&title_color=blue.400&icon_color=blue.400"
             w="70%"
             m="auto"
           />
@@ -43,7 +43,7 @@ export default function Stats() {
       <Box w="100%">
         <Link href="https://github.com/PrasadK05">
           <Image
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrasadK05"
+            src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=PrasadK05&hide_border=true&theme=react&hide_border=true&bg_color=white&text_color=black&title_color=blue.400"
             w="40%"
             m="auto"
           />
@@ -52,3 +52,14 @@ export default function Stats() {
     </Box>
   );
 }
+
+
+
+
+//old
+
+//https://github-readme-stats.vercel.app/api?username=PrasadK05&show_icons=true
+// https://github-readme-stats.vercel.app/api/top-langs/?username=PrasadK05
+
+
+

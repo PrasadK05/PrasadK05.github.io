@@ -8,7 +8,6 @@ export default function Intro() {
       width={{ base: "100%", sm: "100%", md: "90%", lg: "70%" }}
       margin="auto"
       mt={{ base: "10px", sm: "20px", md: "30px", lg: "100px" }}
-      // border={"1px solid red"}
     >
       <Flex
         justifyContent={{ base: "space-between", lg: "space-evenly" }}
@@ -27,7 +26,9 @@ export default function Intro() {
             fontSize={{ base: "4xl", sm: "4xl", md: "5xl", lg: "6xl" }}
             as="b"
             // color={"blue.400"}
-              textShadow={"2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3)"}
+            textShadow={
+              "2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3)"
+            }
           >
             Prasad Karde
           </Text>
@@ -37,30 +38,35 @@ export default function Intro() {
               fontSize={{ base: "2xl", sm: "3xl", md: "4xl", lg: "4xl" }}
               as="b"
               color={"blue.400"}
-              textShadow={"2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3)"}
+              textShadow={
+                "2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3)"
+              }
             >
               Full Stack Web Developer
             </Text>
           </Text>
-          <a href="Prasad_Karde_Resume.pdf" download> <Button
-            mt={"20px"}
-            mb={"20px"}
-            flex={1}
-            fontSize={"sm"}
-            bg={"blue.400"}
-            color={"white"}
-            boxShadow={
-              "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
-            }
-            _hover={{
-              bg: "blue.500",
-            }}
-            _focus={{
-              bg: "blue.500",
-            }}
-          >
-            Resume
-          </Button></a>
+          <a href="Prasad_Karde_Resume.pdf" download>
+            {" "}
+            <Button
+              mt={"20px"}
+              mb={"20px"}
+              flex={1}
+              fontSize={"sm"}
+              bg={"blue.400"}
+              color={"white"}
+              boxShadow={
+                "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
+              }
+              _hover={{
+                bg: "blue.500",
+              }}
+              _focus={{
+                bg: "blue.500",
+              }}
+            >
+              Resume
+            </Button>
+          </a>
           <HStack gap={"20px"}>
             <a href="https://github.com/PrasadK05" target={"_blank"}>
               <Image
@@ -79,9 +85,9 @@ export default function Intro() {
             </a>
           </HStack>
         </Box>
-        <Box>
+        <Box display="flex" alignItems={"center"}>
           <Image
-            src="https://avatars.githubusercontent.com/u/107466109?v=4"
+            src="resume_pic_resize.png"
             alt="Error"
             borderRadius="50%"
             w={{ base: "100%", sm: "100%", md: "60%", lg: "100%" }}
@@ -92,3 +98,5 @@ export default function Intro() {
     </Box>
   );
 }
+
+// https://avatars.githubusercontent.com/u/107466109?v=4

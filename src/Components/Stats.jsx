@@ -23,7 +23,7 @@ export default function Stats() {
       <Box w="100%" mb={{ base: "15px", sm: "20px", md: "20x", lg: "25px" }}>
         <Link href="https://github.com/PrasadK05">
           <Image
-            src="https://github-readme-streak-stats.herokuapp.com?user=PrasadK05"
+            src="https://streak-stats.demolab.com/?user=PrasadK05"
             w="70%"
             m="auto"
           />

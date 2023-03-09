@@ -4,9 +4,7 @@ import {
   HStack,
   Image,
   Text,
-  Flex,
   Button,
-  VStack,
 } from "@chakra-ui/react";
 import React from "react";
 

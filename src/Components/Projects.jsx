@@ -37,93 +37,7 @@ export default function Projects() {
         textAlign={"center"}
         gap={{ base: "20px", sm: "30px", md: "30px", lg: "30px" }}
       >
-        <Box
-          // h={"500px"}
-          boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px;"}
-          display={"flex"}
-          flexDirection={"column"}
-          justifyContent={"space-between"}
-          gap={{ base: "5px", sm: "5px", md: "10px", lg: "15px" }}
-          pb={{ base: "5px", sm: "5px", md: "10px", lg: "10px" }}
-          borderRadius={"20px"}
-        >
-          <Image
-            src="https://www.linkpicture.com/q/home_9.png"
-            w={"100%"}
-            borderTopRadius={"20px"}
-          />
-          <Box>
-            <Text as={'b'}>MyGlamm Clone</Text>
-          </Box>
-          <Box px={"5px"}>
-          MyGlamm is an Indian e-commerce company that sells cosmetics and personal care products. It was founded in 2015, headquartered in Mumbai, India.
-          </Box>
-          <Box>
-            <HStack justifyContent={"center"}>
-              <Image
-                src="https://img.icons8.com/plasticine/2x/react.png"
-                w="40px"
-              />
-              <Image
-                src="https://img.icons8.com/color/2x/redux.png"
-                w="40px"
-              />
-              <Image
-                src="https://img.icons8.com/color/2x/chakra-ui.png"
-                w="40px"
-              />
-              <Image
-                src="https://cdn.iconscout.com/icon/free/png-64/github-159-721954.png"
-                w="40px"
-              />
-            </HStack>
-          </Box>
-          <Box w={"100%"}>
-            <HStack justifyContent={"center"} gap="20px">
-              <a
-                href="https://github.com/KanhaiyaChauhan037/succinct-wrench-1095"
-                target={"_blank"}
-              >
-                <Button
-                  flex={1}
-                  fontSize={"sm"}
-                  bg={"blue.400"}
-                  color={"white"}
-                  boxShadow={
-                    "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
-                  }
-                  _hover={{
-                    bg: "blue.500",
-                  }}
-                  _focus={{
-                    bg: "blue.500",
-                  }}
-                >
-                  Github
-                </Button>
-              </a>
-              <a
-                href="https://whitefeather.netlify.app/"
-                target={"_blank"}
-              >
-                <Button
-                  bg={"green.400"}
-                  color={"white"}
-                  boxShadow={"0 5px 20px 0px rgb(72 187 120 / 43%)"}
-                  _hover={{
-                    bg: "green.500",
-                  }}
-                  _focus={{
-                    bg: "green.500",
-                  }}
-                >
-                  Live
-                </Button>
-              </a>
-            </HStack>
-          </Box>
-        </Box>
-
+       
         <Box
           // h={"500px"}
           boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px;"}
@@ -207,6 +121,93 @@ export default function Projects() {
               </a>
               <a
                 href="https://hubpoint-aman-109.vercel.app/"
+                target={"_blank"}
+              >
+                <Button
+                  bg={"green.400"}
+                  color={"white"}
+                  boxShadow={"0 5px 20px 0px rgb(72 187 120 / 43%)"}
+                  _hover={{
+                    bg: "green.500",
+                  }}
+                  _focus={{
+                    bg: "green.500",
+                  }}
+                >
+                  Live
+                </Button>
+              </a>
+            </HStack>
+          </Box>
+        </Box>
+
+        <Box
+          // h={"500px"}
+          boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px;"}
+          display={"flex"}
+          flexDirection={"column"}
+          justifyContent={"space-between"}
+          gap={{ base: "5px", sm: "5px", md: "10px", lg: "15px" }}
+          pb={{ base: "5px", sm: "5px", md: "10px", lg: "10px" }}
+          borderRadius={"20px"}
+        >
+          <Image
+            src="https://www.linkpicture.com/q/home_9.png"
+            w={"100%"}
+            borderTopRadius={"20px"}
+          />
+          <Box>
+            <Text as={'b'}>MyGlamm Clone</Text>
+          </Box>
+          <Box px={"5px"}>
+          MyGlamm is an Indian e-commerce company that sells cosmetics and personal care products. It was founded in 2015, headquartered in Mumbai, India.
+          </Box>
+          <Box>
+            <HStack justifyContent={"center"}>
+              <Image
+                src="https://img.icons8.com/plasticine/2x/react.png"
+                w="40px"
+              />
+              <Image
+                src="https://img.icons8.com/color/2x/redux.png"
+                w="40px"
+              />
+              <Image
+                src="https://img.icons8.com/color/2x/chakra-ui.png"
+                w="40px"
+              />
+              <Image
+                src="https://cdn.iconscout.com/icon/free/png-64/github-159-721954.png"
+                w="40px"
+              />
+            </HStack>
+          </Box>
+          <Box w={"100%"}>
+            <HStack justifyContent={"center"} gap="20px">
+              <a
+                href="https://github.com/KanhaiyaChauhan037/succinct-wrench-1095"
+                target={"_blank"}
+              >
+                <Button
+                  flex={1}
+                  fontSize={"sm"}
+                  bg={"blue.400"}
+                  color={"white"}
+                  boxShadow={
+                    "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
+                  }
+                  _hover={{
+                    bg: "blue.500",
+                  }}
+                  _focus={{
+                    bg: "blue.500",
+                  }}
+                >
+                  Github
+                </Button>
+              </a>
+              <a
+                href="https://whitefeather.netlify.app/"
                 target={"_blank"}
               >
                 <Button

@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Flex, Text, Image, HStack, Button } from "@chakra-ui/react";
+import Redirects from "../Utils/Redirect";
 
 export default function Intro() {
   return (
@@ -20,15 +21,12 @@ export default function Intro() {
         }}
       >
         <Box p="20px">
-          <Text
-            fontSize={{ base: "2xl", sm: "3xl", md: "4xl", lg: "4xl" }}            
-          >
+          <Text fontSize={{ base: "2xl", sm: "3xl", md: "4xl", lg: "4xl" }}>
             Hello, my name is
           </Text>
           <Text
             fontSize={{ base: "4xl", sm: "4xl", md: "5xl", lg: "6xl" }}
-            as="b"
-            // color={"blue.400"}
+            as="b"            
             textShadow={
               "2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3)"
             }
@@ -49,10 +47,10 @@ export default function Intro() {
               Full Stack Web Developer
             </Text>
           </Text>
-          <a id="resume-link-2" href="Prasad_Karde_Resume.pdf" download>
-            {" "}
+          {/* <a id="resume-link-2" href="Prasad_Karde_Resume.pdf" download> */}
+          <a id="resume-link-2" onClick={Redirects}>
             <Button
-             id="resume-button-2"
+              id="resume-button-2"
               mt={"20px"}
               mb={"20px"}
               flex={1}
@@ -92,7 +90,7 @@ export default function Intro() {
         </Box>
         <Box display="flex" alignItems={"center"}>
           <Image
-          className="home-img"
+            className="home-img"
             src="resume_pic_resize.png"
             alt="Error"
             borderRadius="50%"
@@ -106,3 +104,16 @@ export default function Intro() {
 }
 
 // https://avatars.githubusercontent.com/u/107466109?v=4
+
+{
+  /* <a
+  id="resume-link-1"
+  href="https://drive.google.com/uc?export=download&id=1qpVsjmoE0wzYBLxoXSD1aBJtNVR1e7kU"
+  onClick={() => {
+    window.open(
+      "https://drive.google.com/file/d/1qpVsjmoE0wzYBLxoXSD1aBJtNVR1e7kU/view?usp=sharing"
+    );
+  }}
+  download
+></a>; */
+}

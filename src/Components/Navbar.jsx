@@ -16,8 +16,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { Link } from "react-scroll";
-
-
+import Redirects from "../Utils/Redirect";
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -44,7 +43,13 @@ export default function Navbar() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
-            <Link to="home1" smooth={true} duration={1000} offset={-80} id="home">
+            <Link
+              to="home1"
+              smooth={true}
+              duration={1000}
+              offset={-80}
+              id="home"
+            >
               {" "}
               <Button
                 display={{ base: "none", sm: "none", md: "block", lg: "block" }}
@@ -59,27 +64,57 @@ export default function Navbar() {
               spacing={4}
               display={{ base: "none", md: "flex" }}
             >
-              <Link to="about1" smooth={true} duration={1000} offset={-80} id="about" className="about section">
+              <Link
+                to="about1"
+                smooth={true}
+                duration={1000}
+                offset={-80}
+                id="about"
+                className="about section"
+              >
                 <Button bg="transparent" color={"blue.400"}>
                   About Me
                 </Button>
               </Link>
-              <Link to="skills1" smooth={true} duration={1000} offset={-80} id="skills" >
+              <Link
+                to="skills1"
+                smooth={true}
+                duration={1000}
+                offset={-80}
+                id="skills"
+              >
                 <Button bg="transparent" color={"blue.400"}>
                   Skills
                 </Button>
               </Link>
-              <Link to="projects1" smooth={true} duration={1000} offset={-80} id="projects" >
+              <Link
+                to="projects1"
+                smooth={true}
+                duration={1000}
+                offset={-80}
+                id="projects"
+              >
                 <Button bg="transparent" color={"blue.400"}>
                   Projects
                 </Button>
               </Link>
-              <Link to="contact1" smooth={true} duration={1000} offset={-80} id="contact">
+              <Link
+                to="contact1"
+                smooth={true}
+                duration={1000}
+                offset={-80}
+                id="contact"
+              >
                 <Button bg="transparent" color={"blue.400"}>
                   Contact
                 </Button>
               </Link>
-              <a href="https://drive.google.com/file/d/1fj4aTBunY4c8LKKoP95D6AwMRvsPtORu/view?usp=sharing" target={"_blank"} id="resume-link-1" className="nav-link resume">
+              {/* <a href="https://drive.google.com/file/d/1fj4aTBunY4c8LKKoP95D6AwMRvsPtORu/view?usp=sharing" target={"_blank"} id="resume-link-1" className="nav-link resume"> */}
+              <a
+                id="resume-link-1"
+                className="nav-link resume"
+                onClick={Redirects}
+              >
                 <Button
                   id="resume-button-1"
                   flex={1}
@@ -151,7 +186,13 @@ export default function Navbar() {
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
-              <Link to="home1" smooth={true} duration={1000} offset={-400} id="home">
+              <Link
+                to="home1"
+                smooth={true}
+                duration={1000}
+                offset={-400}
+                id="home"
+              >
                 <Button
                   bg="transparent"
                   color={"blue.400"}
@@ -161,7 +202,14 @@ export default function Navbar() {
                   Home
                 </Button>
               </Link>
-              <Link to="about1" smooth={true} duration={1000} offset={-400} id="about" className="about section">
+              <Link
+                to="about1"
+                smooth={true}
+                duration={1000}
+                offset={-400}
+                id="about"
+                className="about section"
+              >
                 <Button
                   bg="transparent"
                   color={"blue.400"}
@@ -171,7 +219,13 @@ export default function Navbar() {
                   About Me
                 </Button>
               </Link>
-              <Link to="skills1" smooth={true} duration={1000} offset={-400} id="skills">
+              <Link
+                to="skills1"
+                smooth={true}
+                duration={1000}
+                offset={-400}
+                id="skills"
+              >
                 <Button
                   bg="transparent"
                   color={"blue.400"}
@@ -181,7 +235,13 @@ export default function Navbar() {
                   Skills
                 </Button>
               </Link>
-              <Link to="projects1" smooth={true} duration={1000} offset={-400} id="projects">
+              <Link
+                to="projects1"
+                smooth={true}
+                duration={1000}
+                offset={-400}
+                id="projects"
+              >
                 <Button
                   bg="transparent"
                   color={"blue.400"}
@@ -191,7 +251,13 @@ export default function Navbar() {
                   Projects
                 </Button>
               </Link>
-              <Link to="contact1" smooth={true} duration={1000} offset={-400} id="contact">
+              <Link
+                to="contact1"
+                smooth={true}
+                duration={1000}
+                offset={-400}
+                id="contact"
+              >
                 {" "}
                 <Button
                   bg="transparent"
@@ -203,7 +269,12 @@ export default function Navbar() {
                 </Button>
               </Link>
               {/* <Link> */}
-              <a href="https://drive.google.com/file/d/1fj4aTBunY4c8LKKoP95D6AwMRvsPtORu/view?usp=sharing" target={"_blank"} id="resume-link-1" className="nav-link resume">
+              {/* <a href="https://drive.google.com/file/d/1fj4aTBunY4c8LKKoP95D6AwMRvsPtORu/view?usp=sharing" target={"_blank"} id="resume-link-1" className="nav-link resume"> */}
+              <a
+                id="resume-link-1"
+                className="nav-link resume"
+                onClick={Redirects}
+              >
                 <Button
                   id="resume-button-1"
                   fontSize={"sm"}
@@ -233,4 +304,4 @@ export default function Navbar() {
   );
 }
 
-// ../downloads/Prasad-Karde-Resume.pdf
+

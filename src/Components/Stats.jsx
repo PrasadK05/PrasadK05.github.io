@@ -6,8 +6,7 @@ export default function Stats() {
     <Box
       width={{ base: "100%", sm: "100%", md: "90%", lg: "70%" }}
       margin="auto"
-      mt={{ base: "10px", sm: "20px", md: "30px", lg: "100px" }}
-      // border={"1px solid red"}
+      mt={{ base: "10px", sm: "20px", md: "30px", lg: "100px" }}      
     >
       <Box
         mb={{ base: "15px", sm: "20px", md: "20x", lg: "25px" }}
@@ -23,7 +22,8 @@ export default function Stats() {
       <Box w="100%" mb={{ base: "15px", sm: "20px", md: "20x", lg: "25px" }}>
         <Link href="https://github.com/PrasadK05">
           <Image
-            src="https://streak-stats.demolab.com/?user=PrasadK05"
+            // src="https://streak-stats.demolab.com/?user=PrasadK05"
+            src="https://github-readme-streak-stats.herokuapp.com?user=PrasadK05"
             w="70%"
             m="auto"
             id="github-streak-stats"
@@ -34,7 +34,8 @@ export default function Stats() {
       <Box w="100%" mb={{ base: "15px", sm: "20px", md: "20x", lg: "25px" }}>
         <Link href="https://github.com/PrasadK05">
           <Image
-            src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=PrasadK05&hide_border=true&theme=react&hide_border=true&bg_color=white&text_color=black&show_icons=true&title_color=blue.400&icon_color=blue.400"
+            // src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=PrasadK05&hide_border=true&theme=react&hide_border=true&bg_color=white&text_color=black&show_icons=true&title_color=blue.400&icon_color=blue.400"
+            src="https://github-readme-stats.vercel.app/api?username=PrasadK05"
             w="70%"
             m="auto"
             id="github-stats-card"
@@ -45,7 +46,8 @@ export default function Stats() {
       <Box w="100%">
         <Link href="https://github.com/PrasadK05">
           <Image
-            src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=PrasadK05&hide_border=true&theme=react&hide_border=true&bg_color=white&text_color=black&title_color=blue.400"
+            // src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=PrasadK05&hide_border=true&theme=react&hide_border=true&bg_color=white&text_color=black&title_color=blue.400"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrasadK05"
             w="40%"
             m="auto"
             id="github-top-langs"
@@ -65,4 +67,8 @@ export default function Stats() {
 // https://github-readme-stats.vercel.app/api/top-langs/?username=PrasadK05
 
 
+// https://github-readme-streak-stats.herokuapp.com?user=PrasadK05
 
+// https://github-readme-stats.vercel.app/api/top-langs/?username=PrasadK05
+
+// https://github-readme-stats.vercel.app/api?username=PrasadK05

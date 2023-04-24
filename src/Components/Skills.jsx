@@ -4,7 +4,8 @@ import { Box, SimpleGrid, Text, Image } from "@chakra-ui/react";
 export default function Skills() {
   return (
     <Box
-      id="skills"
+      id="skills1"
+      className="nav-link skills"
       width={{ base: "95%", sm: "95%", md: "90%", lg: "70%" }}
       margin="auto"
       mt={{ base: "20px", sm: "20px", md: "30px", lg: "100px" }}
@@ -39,8 +40,9 @@ export default function Skills() {
           <Image
             src="https://img.icons8.com/color/2x/html-5--v2.png"
             w="100%"
+            className="skills-card-img"
           />
-          <Text as={"b"}>HTML</Text>
+          <Text as={"b"} className="skills-card-name">HTML</Text>
         </Box>
 
         <Box
@@ -49,8 +51,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://img.icons8.com/fluency/2x/css3.png" w="100%" />
-          <Text as={"b"}>CSS</Text>
+          <Image src="https://img.icons8.com/fluency/2x/css3.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"} className="skills-card-name">CSS</Text>
         </Box>
 
         <Box
@@ -62,8 +64,9 @@ export default function Skills() {
           <Image
             src="https://img.icons8.com/color/2x/javascript.png"
             w="100%"
+            className="skills-card-img"
           />
-          <Text as={"b"}>Javascript</Text>
+          <Text as={"b"} className="skills-card-name">Javascript</Text>
         </Box>
 
         <Box
@@ -72,8 +75,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://img.icons8.com/color/2x/bootstrap.png" w="100%" />
-          <Text as={"b"}>Bootstrap</Text>
+          <Image src="https://img.icons8.com/color/2x/bootstrap.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"} className="skills-card-name">Bootstrap</Text>
         </Box>
 
         <Box
@@ -85,8 +88,9 @@ export default function Skills() {
           <Image
             src="https://img.icons8.com/plasticine/2x/react.png"
             w="100%"
+            className="skills-card-img"
           />
-          <Text as={"b"}>React JS</Text>
+          <Text as={"b"} className="skills-card-name">React JS</Text>
         </Box>
 
         <Box
@@ -95,8 +99,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://img.icons8.com/color/2x/redux.png" w="100%" />
-          <Text as={"b"}>Redux</Text>
+          <Image src="https://img.icons8.com/color/2x/redux.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"} className="skills-card-name">Redux</Text>
         </Box>
 
         <Box
@@ -105,8 +109,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://img.icons8.com/fluency/2x/node-js.png" w="100%" />
-          <Text as={"b"}>Node JS</Text>
+          <Image src="https://img.icons8.com/fluency/2x/node-js.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"} className="skills-card-name">Node JS</Text>
         </Box>
 
         <Box
@@ -118,8 +122,9 @@ export default function Skills() {
           <Image
             src="https://cdn.iconscout.com/icon/free/png-64/express-8-1175029.png"
             w="100%"
+            className="skills-card-img"
           />
-          <Text as={"b"}>Express JS</Text>
+          <Text as={"b"} className="skills-card-name">Express JS</Text>
         </Box>
 
         <Box
@@ -128,8 +133,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://img.icons8.com/color/2x/mongodb.png" w="100%" />
-          <Text as={"b"}>MongoDB</Text>
+          <Image src="https://img.icons8.com/color/2x/mongodb.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"} className="skills-card-name">MongoDB</Text>
         </Box>
 
         <Box
@@ -138,8 +143,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://img.icons8.com/color/2x/chakra-ui.png" w="100%" />
-          <Text as={"b"}>Chakra UI</Text>
+          <Image src="https://img.icons8.com/color/2x/chakra-ui.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"} className="skills-card-name">Chakra UI</Text>
         </Box>
 
         <Box
@@ -148,8 +153,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://img.icons8.com/fluency/2x/typescript.png" w="100%" />
-          <Text as={"b"}>TypeScript</Text>
+          <Image src="https://img.icons8.com/fluency/2x/typescript.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"} className="skills-card-name">TypeScript</Text>
         </Box>
 
         <Box
@@ -158,8 +163,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://img.icons8.com/color/2x/java-web-token.png" w="100%" />
-          <Text as={"b"}>JSON Web Token</Text>
+          <Image src="https://img.icons8.com/color/2x/java-web-token.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"} className="skills-card-name">JSON Web Token</Text>
         </Box>
 
         <Box
@@ -168,8 +173,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" w="100%" />
-          <Text as={"b"}>NEXT.js</Text>
+          <Image src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"} className="skills-card-name">NEXT.js</Text>
         </Box>
 
         <Box
@@ -178,8 +183,8 @@ export default function Skills() {
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           borderRadius={"15px"}
         >
-          <Image src="https://img.icons8.com/color/2x/git.png" w="100%" />
-          <Text as={"b"}>git</Text>
+          <Image src="https://img.icons8.com/color/2x/git.png" w="100%" className="skills-card-img"/>
+          <Text as={"b"}  className="skills-card-name">git</Text>
         </Box>
 
         <Box
@@ -191,10 +196,13 @@ export default function Skills() {
           <Image
             src="https://img.icons8.com/color/2x/visual-studio.png"
             w="100%"
+            className="skills-card-img"
           />
-          <Text as={"b"}>VS Code</Text>
+          <Text as={"b"} className="skills-card-name">VS Code</Text>
         </Box>
       </SimpleGrid>
     </Box>
   );
 }
+
+ 

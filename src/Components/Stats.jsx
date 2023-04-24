@@ -26,6 +26,7 @@ export default function Stats() {
             src="https://streak-stats.demolab.com/?user=PrasadK05"
             w="70%"
             m="auto"
+            id="github-streak-stats"
           />
         </Link>
       </Box>
@@ -36,6 +37,7 @@ export default function Stats() {
             src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=PrasadK05&hide_border=true&theme=react&hide_border=true&bg_color=white&text_color=black&show_icons=true&title_color=blue.400&icon_color=blue.400"
             w="70%"
             m="auto"
+            id="github-stats-card"
           />
         </Link>
       </Box>
@@ -46,6 +48,7 @@ export default function Stats() {
             src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=PrasadK05&hide_border=true&theme=react&hide_border=true&bg_color=white&text_color=black&title_color=blue.400"
             w="40%"
             m="auto"
+            id="github-top-langs"
           />
         </Link>
       </Box>

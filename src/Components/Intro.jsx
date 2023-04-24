@@ -4,7 +4,8 @@ import { Box, Flex, Text, Image, HStack, Button } from "@chakra-ui/react";
 export default function Intro() {
   return (
     <Box
-      id="home"
+      id="home1"
+      className="nav-link home"
       width={{ base: "100%", sm: "100%", md: "90%", lg: "70%" }}
       margin="auto"
       mt={{ base: "10px", sm: "20px", md: "30px", lg: "100px" }}
@@ -19,7 +20,9 @@ export default function Intro() {
         }}
       >
         <Box p="20px">
-          <Text fontSize={{ base: "2xl", sm: "3xl", md: "4xl", lg: "4xl" }}>
+          <Text
+            fontSize={{ base: "2xl", sm: "3xl", md: "4xl", lg: "4xl" }}            
+          >
             Hello, my name is
           </Text>
           <Text
@@ -29,6 +32,7 @@ export default function Intro() {
             textShadow={
               "2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3)"
             }
+            id="user-detail-name"
           >
             Prasad Karde
           </Text>
@@ -45,9 +49,10 @@ export default function Intro() {
               Full Stack Web Developer
             </Text>
           </Text>
-          <a href="Prasad_Karde_Resume.pdf" download>
+          <a id="resume-link-2" href="Prasad_Karde_Resume.pdf" download>
             {" "}
             <Button
+             id="resume-button-2"
               mt={"20px"}
               mb={"20px"}
               flex={1}
@@ -87,6 +92,7 @@ export default function Intro() {
         </Box>
         <Box display="flex" alignItems={"center"}>
           <Image
+          className="home-img"
             src="resume_pic_resize.png"
             alt="Error"
             borderRadius="50%"

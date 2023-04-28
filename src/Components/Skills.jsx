@@ -83,8 +83,7 @@ export default function Skills() {
       className="nav-link skills"
       width={{ base: "95%", sm: "95%", md: "90%", lg: "70%" }}
       margin="auto"
-      mt={{ base: "20px", sm: "20px", md: "30px", lg: "100px" }}
-      //   border={"1px solid red"}
+      mt={{ base: "20px", sm: "20px", md: "30px", lg: "100px" }}      
     >
       <Box
         mb={{ base: "15px", sm: "20px", md: "20x", lg: "25px" }}
@@ -107,21 +106,21 @@ export default function Skills() {
         gap="25px"
       >
         {skills.map((el) => {
-          return (
-            <Box className="skills-card">
+          return (            
             <Box              
               textAlign={"center"}
               p={"5px"}
               boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
               borderRadius={"15px"}
               key={el.id}
+              className="skills-card"
             >
               <Image src={el.image} w="100%" className="skills-card-img" />
               <Text as={"b"} className="skills-card-name">
                 {el.title}
               </Text>
             </Box>
-            </Box>
+           
           );
         })}
       </SimpleGrid>

@@ -28,8 +28,8 @@ export default function AboutMe() {
       >
         Motivated and innovative aspiring full-stack web developer with hands-on
         experience in building websites with MERN stack and various web
-        technologies including HTML, CSS, and JS. Curious to learn about
-        emerging web technologies. Looking forward to making a significant
+        tech including HTML, CSS, and Javascript. Curious to learn about
+        emerging web tech. Looking forward to making a significant
         contribution to an organization through dedicated effort.
         {/* A full Stack Web Developer With Peoblem Solveing mindset with various
         web technologies including HTML, CSS, JS and ReactJS. have a passion to

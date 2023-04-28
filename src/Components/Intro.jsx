@@ -46,8 +46,7 @@ export default function Intro() {
             >
               Full Stack Web Developer
             </Text>
-          </Text>
-          {/* <a id="resume-link-2" href="Prasad_Karde_Resume.pdf" download> */}
+          </Text>          
           <a id="resume-link-2" onClick={Redirects}>
             <Button
               id="resume-button-2"
@@ -103,17 +102,4 @@ export default function Intro() {
   );
 }
 
-// https://avatars.githubusercontent.com/u/107466109?v=4
 
-{
-  /* <a
-  id="resume-link-1"
-  href="https://drive.google.com/uc?export=download&id=1qpVsjmoE0wzYBLxoXSD1aBJtNVR1e7kU"
-  onClick={() => {
-    window.open(
-      "https://drive.google.com/file/d/1qpVsjmoE0wzYBLxoXSD1aBJtNVR1e7kU/view?usp=sharing"
-    );
-  }}
-  download
-></a>; */
-}

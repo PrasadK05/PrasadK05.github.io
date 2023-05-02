@@ -12,8 +12,7 @@ import {
 export default function Contact() {
   return (
     <Box
-      id="contact1"
-      className="nav-link contact"
+      id="contact"
       bg={useColorModeValue("white", "gray.900")}
       color={useColorModeValue("gray.700", "gray.200")}
       width={{ base: "100%", sm: "100%", md: "100%", lg: "100%" }}
@@ -59,7 +58,11 @@ export default function Contact() {
             <Text fontSize={"lg"} as="b">
               GitHub
             </Text>
-            <Link href={"https://github.com/PrasadK05"} target={"_blank"} id="contact-github">
+            <Link
+              href={"https://github.com/PrasadK05"}
+              target={"_blank"}
+              id="contact-github"
+            >
               <Image
                 src="https://cdn.iconscout.com/icon/free/png-64/github-159-721954.png"
                 w="40px"

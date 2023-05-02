@@ -79,11 +79,10 @@ const skills = [
 export default function Skills() {
   return (
     <Box
-      id="skills1"
-      className="nav-link skills"
+      id="skills"
       width={{ base: "95%", sm: "95%", md: "90%", lg: "70%" }}
       margin="auto"
-      mt={{ base: "20px", sm: "20px", md: "30px", lg: "100px" }}      
+      mt={{ base: "20px", sm: "20px", md: "30px", lg: "100px" }}
     >
       <Box
         mb={{ base: "15px", sm: "20px", md: "20x", lg: "25px" }}
@@ -106,8 +105,8 @@ export default function Skills() {
         gap="25px"
       >
         {skills.map((el) => {
-          return (            
-            <Box              
+          return (
+            <Box
               textAlign={"center"}
               p={"5px"}
               boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
@@ -120,7 +119,6 @@ export default function Skills() {
                 {el.title}
               </Text>
             </Box>
-           
           );
         })}
       </SimpleGrid>

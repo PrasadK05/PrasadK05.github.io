@@ -4,12 +4,10 @@ import React from "react";
 export default function Projects() {
   return (
     <Box
-      id="projects1"
-      className="nav-link projects"
+      id="projects"
       width={{ base: "95%", sm: "95%", md: "90%", lg: "70%" }}
       margin="auto"
       mt={{ base: "20px", sm: "20px", md: "30px", lg: "100px" }}
-      // border={"1px solid red"}
       textAlign="center"
     >
       <Box mb={{ base: "15px", sm: "20px", md: "20x", lg: "25px" }}>
@@ -31,7 +29,6 @@ export default function Projects() {
         gap={{ base: "20px", sm: "30px", md: "30px", lg: "30px" }}
       >
         <Box
-          // h={"500px"}
           boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px;"}
           display={"flex"}
           flexDirection={"column"}
@@ -327,7 +324,6 @@ export default function Projects() {
         </Box>
 
         <Box
-          // h={"500px"}
           boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px;"}
           display={"flex"}
           flexDirection={"column"}

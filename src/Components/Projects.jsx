@@ -39,7 +39,7 @@ export default function Projects() {
           className="project-card"
         >
           <Image
-            src="https://www.linkpicture.com/q/home_21.png"
+            src="hubspot.PNG"
             w={"100%"}
             borderTopRadius={"20px"}
           />
@@ -146,7 +146,7 @@ export default function Projects() {
           borderRadius={"20px"}
         >
           <Image
-            src="https://www.linkpicture.com/q/home_9.png"
+            src="myglamm.PNG"
             w={"100%"}
             borderTopRadius={"20px"}
           />
@@ -237,7 +237,7 @@ export default function Projects() {
           className="project-card"
         >
           <Image
-            src="https://www.linkpicture.com/q/zoomcar.png"
+            src="zoomcar.PNG"
             w={"100%"}
             borderTopRadius={"20px"}
           />
@@ -334,7 +334,7 @@ export default function Projects() {
           className="project-card"
         >
           <Image
-            src="https://www.linkpicture.com/q/fre.png"
+            src="freshly.PNG"
             w={"100%"}
             borderTopRadius={"20px"}
           />
